@@ -32,8 +32,11 @@
      checked{
        CastInt32ToByte(400);
      }
-     // this code may throw OverflowException or not, it depends on // how method CastInt32ToByte is compiled, because checked 
-     // operator and statement only affects which version of add,  // subtract, multiple and data conversation IL instructions are // generated
+     // this code may throw OverflowException or not, it depends on  
+     // how method CastInt32ToByte is compiled, because checked   
+     // operator and statement only affects which version of add,  
+     // subtract, multiple and data conversation IL instructions are   
+     // generated  
      ```
 
      ​
