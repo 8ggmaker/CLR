@@ -39,6 +39,14 @@
      // generated  
      ```
 
-     ​
+2. Reference Type and Value Type
 
-     ​
+   - Advantages and Disadvantages
+
+   - Boxing and Unboxing
+
+     Value Type instances are allocated in stack, and hold all fields' values, usually when passing value type instances as parameters into a method which requires a reference type, boxing is occurred:
+
+     1. memory 
+
+3. ​
